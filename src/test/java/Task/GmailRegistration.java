@@ -104,8 +104,17 @@ public class GmailRegistration {
 		// click next button
 		driver.findElement(By.xpath("//span[text()='Next']")).click();
 
+		//click on skip button
+		driver.findElement(By.xpath("//span[text()='Skip']")).click();
+		
+		//Click on next button
+		driver.findElement(By.xpath("//span[text()='Next']")).click();
+		
+                // click on agree button
+		driver.findElement(By.xpath("//span[text()='I agree']")).click();
+	
 		Thread.sleep(3000);
-		driver.quit();
+		
 
 	}
 
